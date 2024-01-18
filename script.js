@@ -48,3 +48,34 @@ cars.splice(-1);
 
 console.log(cars);
 
+
+/* 7 */
+const bigNumbers = [15, 11, 33, 23, 17, 12, 50, 52, 38, 99];
+let hightest = bigNumbers[0];
+
+for (const nbr of bigNumbers) {
+    if (nbr > hightest) {
+        hightest = nbr;
+    }
+}
+console.log(hightest);
+
+
+/* 8 */
+const firstArray = ['HP', 'DELL', 'Tuxedo'];
+const secondArray = [];
+
+for (let i = 0; i < firstArray.length; i++) {
+    secondArray.push(firstArray[i]);
+}
+console.log(secondArray);
+
+
+/* 9 */
+const lastArray = ['first', 'second', 'third'];
+
+while(lastArray.length > 0) {
+    lastArray.pop();
+}
+console.log(lastArray);
+
